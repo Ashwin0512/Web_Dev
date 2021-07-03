@@ -9,11 +9,18 @@
 
 <body>
   <h1>I Love Bacon</h1>
-  <p id="p1">bacon, bacon, bacon, bacon, bacon, bacon</p>
+  <p id="p1">bacon, bacon, bacon, bacon, bacon, bacon</p>     
   <p id="p2">bacon, bacon, bacon, bacon, bacon, bacon</p>
   <p id="p3">bacon, bacon, bacon, bacon, bacon, bacon</p>
-  <img class="bacon" src="https://emojipedia-us.s3.amazonaws.com/thumbs/240/apple/118/bacon_1f953.png" alt="bacon-img">
-  <img class="broccoli" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/facebook/230/broccoli_1f966.png" alt="broccoli-img">
+  <img id="bacon_id" class="bacon" src="https://emojipedia-us.s3.amazonaws.com/thumbs/240/apple/118/bacon_1f953.png" alt="bacon-img">
+  <img id="broccoli_id" class="broccoli circular" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/facebook/230/broccoli_1f966.png" alt="broccoli-img">
 </body>
 
 </html>
+
+<!--There can be only 1 instance of a particular ID in a html page: eg. 'bacon_id' cannot be
+used once more in the html document. Although the case is not the same with class attribute. 
+class broccoli can be used more than once in the html document.
+
+Any HTML element can have more than 1 class but there can be atmost 1 id. 
+Eg. The img element has 2 classes 'broccoli' and 'circular' associated with it. -->

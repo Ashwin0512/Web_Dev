@@ -1,0 +1,22 @@
+                                            <-- Display in CSS -->
+
+* block - in this type of Display, the element acquires the variable width and the required height
+            Width can be changed. Only one element in  horizontal line.
+            Eg. <p> , <h1> , <div> , list and list items , forms
+
+* inline - this type of Display, the element acquires the required amount of hight and width. 
+            Width cannot be changed in case of inline Display. More than one elements can be placed horizontally.
+            Eg. <span> , <img> , <a> 
+
+* inline-block - more than one elements can be placed horizontally and also the width of the element can be changed.
+
+* none - remove an elements from the Display.
+
+                                            <-- CSS POSITIONING -->
+
+* static -  default HTML positioning, without any changes(no formatting or no CSS)                                               
+
+* relative - relative to the original position, we can define the coordinates (left,right,top,bottom). The only element 
+            where relative positioning is applied is shifted, no other element changes its position.
+
+* absolute - 

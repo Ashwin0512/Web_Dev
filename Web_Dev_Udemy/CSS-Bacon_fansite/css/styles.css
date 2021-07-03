@@ -13,7 +13,7 @@ img:hover {
   border-radius: 10px;
   margin: 5px;
 }
-
+/* :hover is a PSEUDO CLASS.  */
 /********************************* CLASS SELECTORS *************************************/
 
 .bacon {
@@ -36,6 +36,10 @@ img:hover {
   margin: 5px;
   height: 10%;
   width: 10%;
+}
+
+.circular {
+  border-radius: 100%;
 }
 
 /******************************* ID SELECTORS ****************************/
