@@ -6,7 +6,7 @@
   <title>TinDog</title>
   
   <!-- bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <!-- CSS -->
   <link rel="stylesheet" href="css/styles.css">
@@ -34,13 +34,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="">Contact</a>
+                    <a class="nav-link" href="#footer">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Pricing</a>
+                    <a class="nav-link" href="#pricing">Pricing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Download</a>
+                    <a class="nav-link" href="#cta">Download</a>
                 </li>
             </ul>
         </div>  
@@ -201,9 +201,9 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class="cta-line">Find the True Love of Your Dog's Life Today</h3>
+    <button type="button" class="btn btn-lg btn-dark cta-btn"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-lg btn-light cta-btn"><i class="fab fa-google-play"></i>Download</button>
 
   </section>
 
@@ -212,7 +212,13 @@
 
   <footer id="footer">
 
-    <p>© Copyright 2018 TinDog</p>
+    <div class="footer-content">
+      <a href="" class="icon-link"><i class="fab fa-twitter icon"></i></a> 
+      <a href="" class="icon-link"><i class="fab fa-facebook-f icon"></i></a> 
+      <a href="" class="icon-link"><i class="fab fa-instagram icon"></i></a> 
+      <a href="" class="icon-link"><i class="fas fa-envelope icon"></i></a>
+      <p class="copyright">© Copyright 2018 TinDog</p>
+    </div>
 
   </footer>
 
