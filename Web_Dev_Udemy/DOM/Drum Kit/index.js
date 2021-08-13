@@ -22,11 +22,13 @@ function makeSound(key) {
         case "w":
             var audio = new Audio('./sounds/crash.mp3');
             audio.play();
+            alert("w pressed");
             // document.querySelector(".w").style.borderColor = "#da0464bc";
         break;
         case "a":
             var audio = new Audio('./sounds/kick-bass.mp3');
             audio.play();
+            alert("a pressed");
             // document.querySelector(".a").style.borderColor = "#da0464bc";
         break;
         case "s":
