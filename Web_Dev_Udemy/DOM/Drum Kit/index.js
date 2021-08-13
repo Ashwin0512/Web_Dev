@@ -10,8 +10,8 @@ for(var i=0; i<document.querySelectorAll(".drum").length ; i++)  {
 
 // Identifies  keyboard press
 
-document.addEventListener("keydown",function(eventblah)  {
-    makeSound(eventblah.key);
+document.addEventListener("keydown",function(event)  {
+    makeSound(event.key);
 });
 
 
