@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&display=swap');
+
+body    {
+    background-color: #24062f;
+    color: #fff;
+    margin: 0;
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+}
+
+.heading    {
+    background-color: #F4C6A5;
+    color: #24062f;
+    margin: 0;
+    padding: 2rem 0;
+}
+
+.scoreboard {
+    border: 2px solid #fff;
+    border-radius: 0.15rem;
+    width: 10rem;
+    margin: auto;
+    margin-top: 3rem;
+    font-size: 3rem;
+    padding: 2rem 1rem;
+    position: relative;
+}
+
+.badge  {
+    background-color: #E2584D;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.1rem;
+}
+
+#user-label {
+    position: absolute;
+    top: 2.8rem;
+    left: -1.6rem;
+}
+
+#comp-label {
+    position: absolute;
+    top: 2.8rem;
+    right: -1.8rem;
+}
+
+.result    {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 4rem;
+}
+
+.img    {
+    height: 6rem;
+    width: auto;
+    padding: 0 2rem;
+}
+
+.icon:hover  {
+    transition: 0.4s ease;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.images {
+    margin-top: 3rem;
+}
+
+.icon   {
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(206, 204, 204, 0.924);
+    margin: 0 1.5rem;
+}
+.message  {
+    font-size: 2.5rem;
+    margin-top: 5rem;
+}
+
+.green-glow {
+    border: 3px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow   {
+    border: 3px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow  {
+    border: 3px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
