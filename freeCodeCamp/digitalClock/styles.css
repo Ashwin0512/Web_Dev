@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body    {
+    background-image: url(https://thumbs.dreamstime.com/b/vector-seamless-pattern-fruit-berries-gray-small-objects-contours-light-gray-background-vector-seamless-pattern-fruit-123070103.jpg);
+}
+
+.main   {
+    background: rgb(195, 194, 194);
+    width: 400px;
+    height: 175px;
+    margin: 100px auto;
+    position: relative;
+    border-radius: 5px;
+}
+
+.badge  {
+    width: 96px;
+    background: #e66357;
+    color: #fff;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: -15px;
+    left: 152px;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.clock  {
+    width: 320px;
+    height: 95px;
+    background: rgba(224, 221, 221, 0.924);
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 12px;
+    font-weight: 300;
+} 
