@@ -1,0 +1,73 @@
+:root   {
+    --gradient: linear-gradient(
+        45deg,
+        #845ec2,
+        #d65db1,
+        #ff6f91,
+        #ff9671,
+        #ffc75f,
+        #f9f871
+    );
+}
+
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body    {
+    background-image: var(--gradient);
+    background-size: 300%;
+    animation: bg-animation 10s infinite alternate-reverse;
+}
+
+.main   {
+    background: #fff;
+    width: 40%;
+    margin: 30vh auto;
+}
+
+.heading    {
+    background: #fff;
+    padding: 5vh 5vh 1vh;
+    text-align: center;
+    color: rgb(255, 115, 0);
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 3.125em;
+    font-size: 2.5rem;
+
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 400%;
+    animation: bg-animation 5s infinite alternate-reverse;
+}
+
+.btn    {
+    cursor: pointer;
+    margin: 0 3.8vw 5vh;
+    border: none;
+    padding: 0.5em 1.5em;
+    font-size: 2rem;
+    border-radius: 3px;
+    background-image: var(--gradient);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 500ms;
+}
+
+.btn:hover  {
+    background-position: right;
+}
+
+@keyframes bg-animation {
+    0%  {
+        background-position : left;
+    } 
+    100%    {
+        background-position: right;
+    }
+}
