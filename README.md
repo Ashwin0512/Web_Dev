@@ -1,6 +1,3 @@
-# Web_Dev
-Web Development Repository
-
 # Projects (Deployed on GitHub pages)
 1. Personal Portfolio Site - https://ashwin0512.github.io/Web_Dev/Web_Dev_Udemy/MySite/
 2. TinDog Website - https://ashwin0512.github.io/Web_Dev/Web_Dev_Udemy/Bootstrap/TinDog%20Website/
