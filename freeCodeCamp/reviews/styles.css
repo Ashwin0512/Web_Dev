@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body    {
+    background: #f1f5f8;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+main    {
+    display: grid;
+}
+
+.heading    {
+    font-size: 5ex;
+    letter-spacing: 3px;
+    margin-top: 7rem;
+    margin-bottom: 0.8rem;
+}
+
+.underline  {
+    width: 7%;
+    margin: auto;
+    border: 2px solid hsl(205, 78%, 60%);
+}
+
+.card  {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    width: 45vw;
+    margin: auto;
+    box-shadow: 0 0 15px #bbb;
+    margin-top: 5rem;
+    border-radius: 8px;
+}
+
+.image-container    {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 1.5rem auto;
+}
+
+.image-container::before    {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    content: '';
+    background-color: hsl(205, 78%, 60%);
+    position: absolute;
+    left: 8px;
+    bottom: 4px;
+}
+
+.image-container::after    {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f10e';
+    color: #fff;
+    border-radius: 50%;
+    background-color: hsl(205, 78%, 60%);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: grid;
+    place-items: center;
+}
+
+.profile-pic    {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+.name   {
+    font-size: 1rem;
+    letter-spacing: 4px;
+    padding-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+
+.role   {
+    text-transform: uppercase;
+    color: hsl(205, 78%, 60%);
+    font-weight: normal;
+    word-spacing: 2px;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.text   {
+    color: hsl(210, 22%, 49%);
+    margin: 0 2rem;
+    line-height: 1.5;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1rem;
+}
+
+.fas    {
+    margin: 1rem 0.8rem;
+    color: hsl(205, 90%, 76%);
+    font-size: 2.5ex;
+}
+
+.fas:hover  {
+    color: hsl(205, 78%, 60%);
+    transition: color 0.5s ease;
+}
+
+.surprise   {
+    background: hsl(205, 100%, 96%);
+    color: hsl(205, 78%, 60%);
+    border-top: 2px solid hsl(205, 78%, 60%);
+    border-left: 2px solid hsl(205, 78%, 60%);
+    border-bottom: 2px solid hsl(205, 77%, 27%);
+    border-right: 2px solid hsl(205, 77%, 27%);
+    border-radius: 8px;
+    width: fit-content;
+    align-self: center;
+    padding: 0.3rem 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.surprise:hover {
+    background: hsl(205, 78%, 60%);
+    color: black;
+    transition: color 0.5s ease , background 0.5s ease;
+}
