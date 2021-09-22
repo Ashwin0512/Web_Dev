@@ -1,0 +1,121 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body    {
+    background: hsl(210, 36%, 96%);
+    font-family: sans-serif;
+}
+
+.sidebar    {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar    {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 100vh;
+    transform: translate(-100%);
+    transition: all 0.3s ease-out;
+}
+
+.show   {
+    transform: translateX(0);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+}
+
+.cross  {
+    color: hsl(360, 67%, 44%);
+    font-size: 1.8rem;
+    transition: transform 0.5s ease;
+}
+
+.cross:hover    {
+    color: hsl(360, 71%, 66%);
+    transform: rotate(360deg);
+}
+
+.links  {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.link   {
+    text-decoration: none;
+    color: hsl(210, 22%, 49%);
+    height: 4rem;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    margin: auto 0;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    transition: background 0.5s ease-in-out, 
+    padding-left 0.5s ease-in-out;
+}
+
+.link:hover {
+    background: hsl(205, 86%, 81%);
+    color: #49a6e9;
+    padding-left: 2rem;
+}
+
+.social {
+    margin-top: auto;
+    margin-bottom: 3rem;
+    align-self: center;
+}
+
+.icon   {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+    color: #49a6e9;
+    transition: color 300ms ease;
+}
+
+.icon:hover {
+    color: hsl(209, 61%, 16%);
+}
+
+.ham    {
+    position: fixed;
+    top: 2rem;
+    right: 3rem;
+    color: #49a6e9;
+    font-size: 2rem;
+    animation: zoom_ham 2s ease-in-out infinite;
+}
+
+.ham:hover  {
+    cursor: pointer;
+}
+
+@keyframes zoom_ham {
+    0%  {
+        transform: scale(1);
+    }   50% {
+        transform: scale(1.5);
+    }   100%    {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .bar    {
+        width: 100vw;
+        z-index: 1;
+    }
+}
