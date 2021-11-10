@@ -94,7 +94,7 @@ const menu = [
         cost: 269,
         img: "https://img-global.cpcdn.com/recipes/1d9ce5d3344e6a34/1200x630cq70/photo.jpg",
         desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
-      }
+      },
 ]
 
 const allItems = document.querySelector(".items");

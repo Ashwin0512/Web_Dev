@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #9768b6;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    background: #fff;
+    width: 25%;
+    margin: 25vh auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    max-width: 100%;
+}
+
+.formContainer {
+    padding: 0 30px;
+}
+
+.formContainer div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.container h2 {
+    padding: 10px 30px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.formContainer div input {
+    line-height: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 0 10px;
+    letter-spacing: 1.2px;
+}
+
+.formContainer div label {
+    padding-top: 1rem;
+}
+
+.formContainer div i {
+    position: absolute;
+    right: 10px;
+    top: 3rem;
+    visibility: hidden;
+}
+
+.formContainer div small {
+    display: none;
+}
+
+.formContainer button {
+    width: 100%;
+    margin: 1.5rem 0;
+    height: 2.2rem;
+    background: #8042aa;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    transition: background 500ms ease;
+}
+
+.formContainer button:hover {
+    background: #9768b6;
+    cursor: pointer;
+}
+
+.formContainer div.success input {
+    border-color: #2ecc71;
+    border-width: 1.8px;
+}
+
+.formContainer div.success .check {
+    visibility: visible;
+    color: #2ca15d;
+}
+
+.formContainer div.error input {
+    border-color: red;
+    border-width: 1.8px;
+}
+
+.formContainer div.error .exclamation {
+    visibility: visible;
+    color: rgb(187, 45, 45);
+}
+
+.formContainer div.error .errorMsg {
+    display: inline;
+    color: rgb(187, 45, 45);
+}
