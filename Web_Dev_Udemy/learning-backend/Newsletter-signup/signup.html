@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1 style="font-size: 60px; padding-bottom: 1rem; font-weight: 500;">Welcome</h1>
+            <h2>SignUp to my Newsletter</h2>
+            
+            <form class="form" action="/" method="post">
+                <input type="text" placeholder="First Name" name="firstName" required>
+                <input type="text" placeholder="Last Name" name="lastName" required >
+                <input type="email" placeholder="Email Address" name="email" required >
+                <button type="submit" id="signUp-button">Sign Me Up</button>
+            </form>
+        </div>
+        
+        <ul class="bg-bubbles">
+            <li></li> 
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <script>
+        $("#login-button").click(function(event){
+        event.preventDefault();
+	 
+        $('form').fadeOut(500);
+        $('.wrapper').addClass('form-success');
+    });
+    </script>
+</body>
+</html>
